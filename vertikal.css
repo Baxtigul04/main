@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+}
+.item {
+  height: 100vw;
+  background-color: yellowgreen;
+  color: white;
+  grid-template-columns: repeat(6, 1fr);
+}

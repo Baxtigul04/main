@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  min-height: 100vw;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+.nav {
+  background-color: blue;
+  color: white;
+}
+.one {
+  grid-row: span 2;
+  grid-column: span 3;
+}
+.three {
+  grid-row: 1;
+  grid-column: 1;
+}
